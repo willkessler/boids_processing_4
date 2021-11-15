@@ -9,11 +9,11 @@
  * Click the mouse to add a new boid.
  */
 
-int startNumBoids = 5;
+int startNumBoids = 25;
 Flock flock;
 
 void setup() {
-  size(640, 360);
+  size(1000, 600);
   flock = new Flock();
   flock.setup(startNumBoids);
 }
