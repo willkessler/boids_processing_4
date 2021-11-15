@@ -12,7 +12,7 @@ class Flock {
   }
  
   void addBoid(int startX, int startY) {
-    boids = (Boid[]) expand(boids, currentNumBoids+2);  
+    boids = (Boid[]) expand(boids, currentNumBoids+1);
     boids[currentNumBoids++] = new Boid(mouseX,mouseY);
   }
 
