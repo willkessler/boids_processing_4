@@ -1,2 +1,7 @@
-# boids_processing_4
-Basic boids algorithm running in Processing4
+# Basic boids algorithm
+## Running in Processing4
+
+This was adapted from the manual page describing Craig Reynold's Boids program here, to work with Processing4:
+
+https://processing.org/examples/flocking.html
+
